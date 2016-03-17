@@ -95,8 +95,6 @@ We are going to start with a [brief tutorial](http://pcottle.github.io/learnGitB
   - Think about the results you expect *before* you press enter.
 - Whenever you see/type `git commit`, it may help to assume changes have been made and staged.  Why else would you "commit"?
 
-## Break (10 min; ~3:15-3:25)
-
 ## Common Commands for Managing Branches (5 min)
 
 * `git branch <new_branch_name>` - create a new branch
@@ -197,8 +195,6 @@ This is the modified text
 ```
 >The HEAD is a reference to the last commit in your current checked out branch. Anything between <<<<< HEAD and ===== is the original code from your checked out branch, while anything beneath from ===== to >>>>>> are the changes introduced by the commit you are trying to merge
 
-## Break (10 min; ~4:05-4:15)
-
 ## ![](mechanical.png) You Do, 1-2 Pairs: Merge Conflicts (25 min)
 
 1. Pair up with someone.
@@ -234,12 +230,6 @@ This is the modified text
 7. Pulling Changes:
   - Now, the Primary student should pull down the changes from the remote repo and work to resolve any merge conflicts
 
-## Exit Ticket (3 min)
-
-Before you leave, plase take ~3 minutes to complete [this exit ticket.](https://docs.google.com/forms/d/1d03NYFphG6m7yAMUY1OlnJZMQWof7Rt6b5MX3Xn4ZPs/viewform)
-
-This helps us help you! We'll review responses for each exit ticket and start to implement them in future lessons.
-
 ## ![](conceptual.png) Closing (5 min)
 
 Review Learning Objectives:
@@ -254,10 +244,6 @@ Quiz Questions:
 * How can you check what branch your are currently working in?
 * How can you bring a new feature in the main branch?
 * What is a conflict in git? How can a conflict be resolved?
-
-### Homework
-
-From this point on, all homework submissions should be a pull request from a feature (or 'topic') branch, named `<your_name>_solution`.
 
 ## References & Additional Resources
 
